@@ -1,5 +1,6 @@
-NATION=dalso
-PS1='[\e[1;31m$NATION\e[0m][\e[1;32m\t\e[0m][\e[1;33m\u\e[0m@\e[1;36m\h\e[0m \w] \n\$ \[\033[00m\]'
+#NATION=dalso
+#PS1='[\e[1;31m$NATION\e[0m][\e[1;32m\t\e[0m][\e[1;33m\u\e[0m@\e[1;36m\h\e[0m \w] \n\$ \[\033[00m\]'
+PS1='[\e[1;32m\t\e[0m][\e[1;33m\u\e[0m@\e[1;36m\h\e[0m \w] \n\$ \[\033[00m\]'
 
 # are we an interactive shell?
 if [ "$PS1" ]; then
