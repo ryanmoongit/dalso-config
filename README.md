@@ -2,4 +2,8 @@
 
 ##Bash쉘 꾸미기
 
-```curl -o /root/.bashrc https://raw.githubusercontent.com/dalso0418/dalso-config/main/.bashrc```
+```
+curl -L -o /tmp/setting.sh https://raw.githubusercontent.com/ryanmoongit/dalso-config/main/ubuntu24
+chmod +x /tmp/setting.sh
+/tmp/setting.sh
+```
